@@ -1,0 +1,328 @@
+.container__banner {
+    height: 705px;
+    width: 100%;
+    margin-top: 32px;
+    position: relative;
+}
+
+.container__banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container__banner-order-btn {
+    background: radial-gradient(at center center, rgb(252, 252, 252) 0%, rgb(29, 98, 240) 100%);
+    padding: 17px 52px;
+    font-size: 2.8rem;
+    color: rgb(255, 58, 45);
+    border-radius: 50px;
+    display: inline-block;
+    min-width: 388px;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    left: 180px;
+    bottom: 150px;
+}
+
+.container__banner-order-btn:hover {
+    filter: brightness(1.2);
+}
+
+.container__main {
+    width: 1310px;
+    margin: 0 auto;
+}
+
+
+/* menu */
+.container__option {
+    width: 1310px;
+    margin: 0 auto;
+}
+
+.option__content {
+    display: flex;
+}
+
+
+.option__content-item-wrap {
+    position: relative;
+}
+
+.opion__item-link {
+    display: block;
+}
+
+.option__item-img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    transition: transform linear 0.2s;
+}
+
+.option__item-img:hover {
+    transform: translateY(-20px);
+}
+
+.option__item-brand {
+    width: 80px;
+    height: 80px;
+    background-color: #FE5000;
+    border-radius: 50%;
+    font-size: 4.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+
+.price {
+    font-size: 2.4rem;
+    display: block;
+}
+
+.option__item-descript {
+    padding: 40px 10px 25px;
+    margin-bottom: 35px;
+    border: 2px solid #dab38c;
+    font-size: 1.6rem;
+    color: #333;
+    height: calc(16px * 1.5 * 5 + 40px + 25px);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+/* đặt bàn online */
+
+
+.container__monent {
+    /* background-image: url("./img/khai-chuong.jpg"); */
+    width: 100%;
+    padding-top: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 85px 15px 90px;
+    position: relative;
+}
+
+.opacity {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container__monent-content {
+    position: relative;
+    z-index: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 1310px;
+    margin: 0 auto;
+}
+
+.container__moment-head {
+    text-align: center;
+    padding: 0 36px;
+}
+
+/* .fake-border {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    flex: 1;
+} */
+
+.container__moment-title {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.container__moment-descript {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #fff;
+}
+
+.container__moment-content-wrap {
+    display: flex;
+    align-items: center;
+}
+
+/* .container__moment-content-item {
+
+} */
+
+.container__moment-content-item-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container__moment-content-item-video {
+    max-width: 100%;
+    height: 368px;
+}
+
+/* feedback */
+.feedback__list {
+    display: flex;
+    margin: 0 -30px;
+}
+
+.feedback__item {
+    padding: 50px 40px 60px;
+    border: 1px solid #e4e4e4;
+    position: relative;
+    transition: all linear 0.25s;
+}
+
+.feedback__item:hover {
+    border-color: #f68921;
+}
+
+.feedback__item:hover .feedback__item-marker {
+    background-color: #f68921;
+    color: #fff;
+    border-color: #f68921;
+}
+
+.feedback__item-content {
+    font-size: 1.8rem;
+    font-style: italic;
+    text-align: center;
+    margin: 0 0 19px;
+}
+
+.feedback__item-author {
+    font-size: 1.6rem;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.feedback__item-marker {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    color: #f68921;
+    font-size: 3rem;
+    line-height: 1;
+    display: flex;
+    line-height: 44px;
+    justify-content: center;
+    transition: all linear 0.25s;
+}
+
+.feedback__item-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+/* .feedback_duration ul {
+    list-style: none;
+    display: flex;
+}
+
+.feedback_duration li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 1px 0 10px;
+}
+
+.feedback_duration li.active {
+    background-color: #f68921;
+} */
+
+/* phần tin tức */
+.news {
+    display: flex;
+    margin: 0 -30px;
+}
+
+/* .news__item {
+
+} */
+
+.news__wrap-img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.news__img-link {
+    display: block;
+    transition: all linear 0.25s;
+}
+
+.news__img-link:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.news__img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.news__content {
+    padding: 15px 10px 25px;
+    border:  2px solid #dab38c;
+}
+
+.news__content-head {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.news__content-link {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.8);
+    font-weight: 600;
+}
+
+.news__content-para {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    height: calc(16px * 1.5 * 5);
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: rgba(51, 51, 51, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+/* phần footer */
+
+
+
+
+/* footer */

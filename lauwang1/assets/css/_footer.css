@@ -1,0 +1,125 @@
+.pdLR20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer{
+    background-color: #efefef;
+    padding-top: 50px;
+}
+
+.gird__now-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.footer_heading{
+    font-weight: 400;
+    font-size: 2.4rem;
+    color:  #a39384;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.footer-item-link{
+    /* padding: 7px 0px; */
+    color:#1c3142 ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.footer_list{
+    border-top: 1px solid var(--primary-color);
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    
+}
+.footer-item{
+    margin-top: 10px;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.iconAdress {
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.footer_list-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-item-contact {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .footer-item-link:hover {
+    color: var(--primary-color);
+    
+} */
+.footer-item-icon {
+    font-size: 2.5rem;
+    color: var(--white-color);
+}
+
+
+.footer_download{
+    display: flex;
+    align-items: center ;
+}
+.footer_download-qr{
+    width: 85px;
+    object-fit: contain;
+    border: 1px solid #f0f0f0 ;
+}
+.footer_download-apps-img{
+    height: 19px; 
+    margin: 9px 0px 9px 13px;
+
+}
+.footer_bottom{
+    margin-top: 97px;
+    height: 44px;
+    background-color: #ff4e00;
+    display: flex;
+    align-items: center;
+}
+.grid_footer{
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+.grid__row-from{
+    color: #fff;
+    margin: 8px 23px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 8px 0px;
+    align-items: center;
+    display: inline-block;
+}
+.grid__row-from:hover {
+    text-decoration: underline;
+}
+
+.grid__row-from {
+    margin: 0 12px;
+}  
